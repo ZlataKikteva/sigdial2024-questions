@@ -1,0 +1,64 @@
+Configuration,Batches,Epochs,Accuracy,Balanced accuracy
+['processed_question_locution'],16,6,0.40874811463046756,0.34922664573198053
+['processed_question_locution'],16,8,0.4660633484162896,0.3445892955557406
+['processed_question_locution'],16,10,0.4555052790346908,0.3687621177338203
+['processed_question_locution'],32,6,0.4419306184012066,0.4032269021290206
+['processed_question_locution'],32,8,0.44042232277526394,0.35347199919644634
+['processed_question_locution'],32,10,0.4494720965309201,0.34181822507166565
+['processed_question_locution'],64,6,0.46003016591251883,0.37227158526060644
+['processed_question_locution'],64,8,0.444947209653092,0.35719385334353637
+['processed_question_locution'],64,10,0.48265460030165913,0.38441264592493907
+['processed_response_locutions'],16,6,0.4917043740573152,0.39062591275363817
+['processed_response_locutions'],16,8,0.5369532428355958,0.41849759264325526
+['processed_response_locutions'],16,10,0.5248868778280543,0.40706836417366804
+['processed_response_locutions'],32,6,0.5294117647058824,0.34480207866631246
+['processed_response_locutions'],32,8,0.4751131221719457,0.395290224268112
+['processed_response_locutions'],32,10,0.5294117647058824,0.4002269245968024
+['processed_response_locutions'],64,6,0.579185520361991,0.42417269001465696
+['processed_response_locutions'],64,8,0.4193061840120664,0.406674517173976
+['processed_response_locutions'],64,10,0.497737556561086,0.4057830748877602
+['processed_preceding_locution'],16,6,0.48265460030165913,0.3215892915908379
+['processed_preceding_locution'],16,8,0.48265460030165913,0.3261091484842838
+['processed_preceding_locution'],16,10,0.45852187028657615,0.344991336687641
+['processed_preceding_locution'],32,6,0.4434389140271493,0.33734898676911973
+['processed_preceding_locution'],32,8,0.4796380090497738,0.3293466236871216
+['processed_preceding_locution'],32,10,0.4796380090497738,0.35401889143964294
+['processed_preceding_locution'],64,6,0.4374057315233786,0.32983959325385026
+['processed_preceding_locution'],64,8,0.3288084464555053,0.28384421104383994
+['processed_preceding_locution'],64,10,0.4645550527903469,0.3458271381728935
+"['processed_question_locution', 'processed_response_locutions']",16,6,0.526395173453997,0.40984485335807436
+"['processed_question_locution', 'processed_response_locutions']",16,8,0.5158371040723982,0.3953610638626875
+"['processed_question_locution', 'processed_response_locutions']",16,10,0.5067873303167421,0.381961675250681
+"['processed_question_locution', 'processed_response_locutions']",32,6,0.530920060331825,0.39501862843443175
+"['processed_question_locution', 'processed_response_locutions']",32,8,0.5610859728506787,0.4034612278774951
+"['processed_question_locution', 'processed_response_locutions']",32,10,0.48265460030165913,0.39125474631891827
+"['processed_question_locution', 'processed_response_locutions']",64,6,0.5128205128205128,0.42652334865107405
+"['processed_question_locution', 'processed_response_locutions']",64,8,0.5490196078431373,0.39236901613583225
+"['processed_question_locution', 'processed_response_locutions']",64,10,0.4132730015082956,0.41044632909485235
+"['processed_question_locution', 'processed_preceding_locution']",16,6,0.4479638009049774,0.3192702200124498
+"['processed_question_locution', 'processed_preceding_locution']",16,8,0.4434389140271493,0.31521134913743537
+"['processed_question_locution', 'processed_preceding_locution']",16,10,0.4494720965309201,0.32965059955936715
+"['processed_question_locution', 'processed_preceding_locution']",32,6,0.4374057315233786,0.34834379406824123
+"['processed_question_locution', 'processed_preceding_locution']",32,8,0.4555052790346908,0.33335804789338114
+"['processed_question_locution', 'processed_preceding_locution']",32,10,0.3755656108597285,0.3111959600284944
+"['processed_question_locution', 'processed_preceding_locution']",64,6,0.40271493212669685,0.3108330392697178
+"['processed_question_locution', 'processed_preceding_locution']",64,8,0.4177978883861237,0.32375703605021683
+"['processed_question_locution', 'processed_preceding_locution']",64,10,0.41025641025641024,0.31093652322970405
+"['processed_preceding_locution', 'processed_response_locutions']",16,6,0.4675716440422323,0.31318515170378475
+"['processed_preceding_locution', 'processed_response_locutions']",16,8,0.5414781297134238,0.32095186740308124
+"['processed_preceding_locution', 'processed_response_locutions']",16,10,0.4358974358974359,0.3225432471759981
+"['processed_preceding_locution', 'processed_response_locutions']",32,6,0.3891402714932127,0.3171606274590657
+"['processed_preceding_locution', 'processed_response_locutions']",32,8,0.4358974358974359,0.3011235212565041
+"['processed_preceding_locution', 'processed_response_locutions']",32,10,0.42081447963800905,0.30290178010914054
+"['processed_preceding_locution', 'processed_response_locutions']",64,6,0.5279034690799397,0.3399964844529557
+"['processed_preceding_locution', 'processed_response_locutions']",64,8,0.49019607843137253,0.3354647328514655
+"['processed_preceding_locution', 'processed_response_locutions']",64,10,0.4177978883861237,0.3017879067824947
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",16,6,0.4766214177978884,0.31805035162078615
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",16,8,0.47058823529411764,0.3464505530378424
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",16,10,0.4781297134238311,0.3476528436942849
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",32,6,0.4645550527903469,0.34747534821757803
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",32,8,0.502262443438914,0.3336275291122979
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",32,10,0.530920060331825,0.3420845343684373
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",64,6,0.5324283559577677,0.362391047778399
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",64,8,0.48868778280542985,0.3419842223305962
+"['processed_question_locution', 'processed_preceding_locution', 'processed_response_locutions']",64,10,0.497737556561086,0.3535668925339561
